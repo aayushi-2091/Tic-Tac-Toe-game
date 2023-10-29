@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.player{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    font-weight: 900;
+}
+.outerbox{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.innerbox{
+    border: solid black;
+    min-width: 85px;
+    min-height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 5%;
+}
+.innerbox:hover{
+    background-color:rgb(234 228 223);
+}
+.reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.reset button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 20px;
+    width: 4rem;
+    font-weight: 700;
+    border-radius: 16%;
+}
+header{
+    padding: 1rem;
+}
+.head{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+#curv1{ border-radius: 10% 0 0 0;}
+#curv2{ border-radius: 0 10% 0 0;}
+#curv3{ border-radius: 0 0 0 10%;}
+#curv4{ border-radius: 0 0 10% 0;}
